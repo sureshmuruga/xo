@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <script>
+      var input = document.createElement("input");
+      input.type = "text";
+      input.value;
+      var ply;
+
+      var c;
+
+      swal({
+        title: "demo",
+        text: "value",
+        content: input,
+        buttons: {
+          cancel: "OK",
+        },
+      }).then(() => {
+        c = input.value;
+        ply=input.value;
+        console.log(c);
+        alert(ply);
+      });
+    </script>
+  </body>
+</html>
