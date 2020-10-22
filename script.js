@@ -24,7 +24,6 @@ $(document).ready(function() {
      
         icon: 'question',
   input: 'range',
-  inputLabel: 'Your age',
   inputAttributes: {
     min: 1,
     max: 10,
