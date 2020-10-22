@@ -30,7 +30,7 @@ $(document).ready(function() {
     max: 10,
     step: 1
   },
-  inputValue: 1
+  inputValue: 2
     }
   ]).then((result) => {
     arr=result;
